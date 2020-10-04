@@ -125,6 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  exp: 2
   deathEffect: {fileID: 0}
 --- !u!50 &6972549016896293900
 Rigidbody2D:

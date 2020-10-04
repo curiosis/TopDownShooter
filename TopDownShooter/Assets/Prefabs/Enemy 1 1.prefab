@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3050323674217185995}
   - component: {fileID: 511420089955998249}
   - component: {fileID: 3950757209699365645}
-  - component: {fileID: 5654124764853623543}
   - component: {fileID: 4817381558206806006}
+  - component: {fileID: 3709298834180644738}
   m_Layer: 0
   m_Name: New Sprite
   m_TagString: Untagged
@@ -123,20 +123,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5654124764853623543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4087713603755560816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bf40154165edc049bb8214ed40d15c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 60
-  deathEffect: {fileID: 0}
 --- !u!114 &4817381558206806006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,6 +136,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!114 &3709298834180644738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4087713603755560816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bf40154165edc049bb8214ed40d15c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 60
+  exp: 1
+  deathEffect: {fileID: 0}
 --- !u!1 &8125921198173707039
 GameObject:
   m_ObjectHideFlags: 0
