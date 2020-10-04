@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public Camera cam;
     Vector2 movement, mousePosition, lookDirection;
     public static float exp;
+    public static int kills;
 
     
     void Update()
@@ -17,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
-        Debug.Log(exp);
     }
 
     private void FixedUpdate()
